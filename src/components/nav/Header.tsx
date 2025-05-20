@@ -18,15 +18,7 @@ export const MyLinks = () => (
   <div className="flex items-center text-lg gap-4">
     <Link
       className="text-zinc-300 hover:text-indigo-300 transition-colors"
-      href="https://www.linkedin.com"
-      target="_blank"
-      rel="nofollow"
-    >
-      <SiLinkedin />
-    </Link>
-    <Link
-      className="text-zinc-300 hover:text-indigo-300 transition-colors"
-      href="https://www.github.com"
+      href="https://www.github.com/romitg2"
       target="_blank"
       rel="nofollow"
     >
@@ -34,7 +26,7 @@ export const MyLinks = () => (
     </Link>
     <Link
       className="text-zinc-300 hover:text-indigo-300 transition-colors"
-      href="https://www.x.com"
+      href="https://x.com/RomitG249541"
       target="_blank"
       rel="nofollow"
     >

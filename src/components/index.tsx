@@ -5,7 +5,8 @@ import Hero from "./hero/Hero";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
 import { Experience } from "./experience/Experience";
-import { Contact } from "./contact/Contact";
+import Contact from "./contact/Contact";
+import Schedule from "./schedule/Schedule";
 
 export const HomPage = () => {
   return (
@@ -18,6 +19,7 @@ export const HomPage = () => {
           <About />
           {/* <Projects />
           <Experience /> */}
+          <Schedule />
           <Contact />
         </div>
       </main>

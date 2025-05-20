@@ -28,11 +28,11 @@ const Hero = () => {
           <Reveal>
             <OutlineButton
               onClick={() => {
-                document.getElementById("contact")?.scrollIntoView();
+                document.getElementById("schedule")?.scrollIntoView();
               }}
               className="pointer-events-auto before:bg-indigo-700 hover:text-white hover:border-indigo-700 mt-4 bg-indigo-500 text-zinc-100 border-indigo-500 md:mt-6"
             >
-              Contact Me
+            Know More
             </OutlineButton>
           </Reveal>
         </div>

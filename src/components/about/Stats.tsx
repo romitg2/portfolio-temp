@@ -1,6 +1,6 @@
 import { Chip } from "../util/Chip";
 import Reveal from "../util/Reveal";
-import { AiFillCode, AiFillSmile } from "react-icons/ai";
+import { AiFillCode } from "react-icons/ai";
 
 export const Stats = () => {
   return (
@@ -13,19 +13,13 @@ export const Stats = () => {
           </h4>
           <div className="flex flex-wrap gap-2 mb-12">
             <Chip>NextJS</Chip>
-            <Chip>React</Chip>
             <Chip>TypeScript</Chip>
-            <Chip>JavaScript</Chip>
-            <Chip>HTML</Chip>
-            <Chip>CSS</Chip>
             <Chip>TailwindCSS</Chip>
             <Chip>Redis</Chip>
             <Chip>Postgres</Chip>
-            <Chip>MongoDB</Chip>
             <Chip>NodeJS</Chip>
             <Chip>Express</Chip>
-            <Chip>GitHub</Chip>
-            <Chip>Heroku</Chip>
+            <Chip>tRPC</Chip>
             <Chip>AWS</Chip>
           </div>
         </div>
